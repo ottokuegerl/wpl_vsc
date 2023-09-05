@@ -14,7 +14,7 @@
 ## cd /home/nuc8/05_development/05_vcs_projects
 
 ## start SSH-agent in background
-   eval "$(ssh-agent -s)"
+    eval "$(ssh-agent -s)"
 
 ### add existing key to SSH-agent
     ssh-add ~/.ssh/git_id_rsa
