@@ -23,10 +23,10 @@
     ssh-add -L
 
 ## initialize git repository
-   git init
+    git init
 
 ## add remote repository
-   git remote add origin https://github.com/ottokuegerl/wpl_vsc
+    git remote add origin https://github.com/ottokuegerl/wpl_vsc
 
 ## set remote URL to SSH
     git remote set-url origin git@github.com:ottokuegerl/wpl_vsc
