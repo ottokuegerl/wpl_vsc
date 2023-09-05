@@ -22,18 +22,18 @@
 ### check that your key is visible to ssh-agent
     ssh-add -L
 
-##) initialize git repository
+## initialize git repository
    git init
 
-##) add remote repository
+## add remote repository
    git remote add origin https://github.com/ottokuegerl/wpl_vsc
 
-##) set remote URL to SSH
+## set remote URL to SSH
    git remote set-url origin git@github.com:ottokuegerl/wpl_vsc
    
    now we are able to pull/push from/to github using our keys for authentication
 
-##) create on github directory "wpl_vsc"
+## create on github directory "wpl_vsc"
    https://github.com/ottokuegerl/wpl_vsc
    
 ## pull latest changes
