@@ -29,29 +29,29 @@
    git remote add origin https://github.com/ottokuegerl/wpl_vsc
 
 ## set remote URL to SSH
-   git remote set-url origin git@github.com:ottokuegerl/wpl_vsc
-   
+    git remote set-url origin git@github.com:ottokuegerl/wpl_vsc
    now we are able to pull/push from/to github using our keys for authentication
 
 ## create on github directory "wpl_vsc"
    https://github.com/ottokuegerl/wpl_vsc
    
 ## pull latest changes
-   git pull origin main
+    git pull origin main
 
 ## Set merge as the default for this repository
-   git config pull.rebase false
-   git pull origin main  # Perform the merge
-   git pull origin main --allow-unrelated-histories
+    git config pull.rebase false
+    git pull origin main  # Perform the merge
+    git pull origin main --allow-unrelated-histories
 
-## git status
+## status
+    git status
 
 ## add all files
-   git add .
+    git add .
    
 ## commit yout changes
-   git commit -m "first commit"
+    git commit -m "first commit"
 
 ## push changes to remote github repository
-   git push origin main
+    git push origin main
 
